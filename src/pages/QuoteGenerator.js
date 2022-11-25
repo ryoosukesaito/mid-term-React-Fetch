@@ -37,7 +37,7 @@ const QuoteGenerator = () => {
   const getImgUrl = "https://api.unsplash.com/search/photos?query=landscape&client_id=SSzNV_FujTmR5t7M_-lwQr3WUNkM6FsFtpgIOIHcjYk";
   
   const fetchImg = async() => {
-    let randomNumber = Math.floor(Math.random() *10);
+    let randomNumber = Math.floor(Math.random() * 20);
     return fetch(getImgUrl)
       .then((response) => response.json())
       .then((data) => {
