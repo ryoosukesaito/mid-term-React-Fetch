@@ -1,0 +1,26 @@
+.component {
+  position: absolute;
+  top: 20%;
+}
+
+.title {
+  margin: 3rem;  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-enter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+@media screen and (max-width: 425px) {
+  .title h1 {
+    font-size: 35px;
+  }
+
+}
